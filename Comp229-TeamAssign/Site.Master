@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - Books Library</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -47,26 +47,30 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
                 </div>
+				
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
+						<li><img src="Images/logo.jpg" width= "50px" height= "50px" alt="logo"></li> <%--image source: http://studio108design.ca/portfolio/sn-design/--%>
+                        <li><a runat="server" href="~/Home">Home</a></li>
+                        <li><a runat="server" href="~/About">List</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
         </div>
-
+<footer class="main">
+         <p>&copy;<span class="auto-style2"> - Sushmita Nandalan - Chanpreet Mudhar- COMP229 - Fall 2017</span></p>
+    </footer>
     </form>
 </body>
 </html>
+
+
+       
