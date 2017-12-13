@@ -7,7 +7,12 @@ body {
     background-color: #D6D7DF;
     font-size: 14pt;
 }
-
+.navbar {
+    background-color: #428BCA;
+}
+img{
+    margin:5px;
+}
 /*.main {
     border-style: solid none none none;
     border-width: 5px;
@@ -22,9 +27,9 @@ body {
     background-color: #FFFFFF;
     border-style: solid;
     border-width: 2px;
-}
+}*/
 
-    .button:hover {
-        background-color: indigo;
-        text-emphasis-color: #FFFFFF;
-    }*/
+a:hover {
+    background-color: #FFFFFF;
+    text-emphasis-color: indigo;
+}

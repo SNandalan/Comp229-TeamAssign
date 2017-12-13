@@ -65,7 +65,7 @@
             </asp:ContentPlaceHolder>
             <hr />
 <footer class="main">
-         &copy;<h5>- Sushmita Nandalan - Chanpreet Mudhar- COMP229 - Fall 2017</h5>
+         <h5>&copy;- Sushmita Nandalan - Chanpreet Mudhar- COMP229 - Fall 2017</h5>
     </footer>        
         </div>
 

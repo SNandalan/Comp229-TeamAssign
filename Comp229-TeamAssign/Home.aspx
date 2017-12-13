@@ -12,6 +12,7 @@
             <em>“Sometimes, you read a book and it fills you with this weird evangelical zeal, and you become convinced that the shattered world will never be put back together unless and until all living humans read the book.” </em>
             -John Green, The Fault in Our Stars
         </blockquote>
+        <p><a href="About.aspx" class="btn btn-primary btn-lg">List of Books &raquo;</a></p>
     </div>
     
 </asp:Content>
