@@ -18,9 +18,15 @@
                  </td>
              </tr>
              <tr>
-                 <td>Enrollment Date:</td>
+                 <td>Password:</td>
                  <td>
-                 <asp:TextBox ID="txtEnrollmentDate" runat="server" TextMode="Date" ></asp:TextBox>
+                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Date" ></asp:TextBox>
+                 </td>
+             </tr>
+             <tr>
+                 <td>Books Read:</td>
+                 <td>
+                 <asp:TextBox ID="txtBooks" runat="server" TextMode="Date" ></asp:TextBox>
                  </td>
              </tr>
              </table>
