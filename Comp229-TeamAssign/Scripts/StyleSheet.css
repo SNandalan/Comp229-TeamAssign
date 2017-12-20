@@ -5,13 +5,16 @@ Date: 12 December 2017*/
 body {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     background-color: #D6D7DF;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 .navbar {
     background-color: #428BCA;
 }
 img{
     margin:5px;
+}
+.size{
+    font-size:12pt;
 }
 /*.main {
     border-style: solid none none none;

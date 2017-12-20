@@ -1,0 +1,182 @@
+[
+	{ "name":"Union Worker",
+		"faction":"Teknes",
+		"rank":1,
+		"base":3,
+		"size":2,
+		"deploymentZone":"C",
+		"traits":["Union Worker"],
+		"types":["Infantry"],
+		"defenseChart":["OVERPOWER","STRIKE","STRIKE","STRIKE","STRIKE","BLOCK","BLOCK","ARMOR","ARMOR","ARMOR"],
+		"mobility":5,
+		"willpower":4,
+		"resiliance":1,
+		"wounds":2,
+		"actions":[
+			{
+				"name":"Savage Blow",
+				"type":"Melee",
+				"rating":1,
+				"range":"0"
+			}
+		],
+		"specialAbilities":[
+			{
+				"name":"Pain Fulled",
+				"description":"While this model has 1 or more damage on it, it gains [+1] Mobility, and its melee attacks gain Unstoppable(1) and [+1] Rating."
+			}
+		],
+		"imageUrl":"http://wrathofkings.com/ks/wp-content/uploads/2013/09/TKworker2_front.jpg"
+	},
+	{ "name":"Dancing Master",
+		"faction":"Goritsi",
+		"rank":1,
+		"base":30,
+		"size":2,
+		"deploymentZone":"C",
+		"traits":["Zeti"],
+		"types":["Leader"],
+		"defenseChart":["OVERPOWER","STRIKE","STRIKE","STRIKE","STRIKE","DODGE","DODGE","DODGE","MAGIC","MAGIC"],
+		"mobility":7,
+		"willpower":6,
+		"resiliance":1,
+		"wounds":3,
+		"actions":[
+			{
+				"name":"Blade Fury",
+				"type":"Melee",
+				"rating":3,
+				"range":"0"
+			},
+			{
+				"name":"Come Hither",
+				"type":"Will",
+				"rating":3,
+				"range":"9",
+				"description":"Move the target 3\" toward this model per success."
+			},
+			{
+				"name":"Deadly Flourish",
+				"type":"Special",
+				"rating":0,
+				"range":"-",
+				"description":"This action can only be used if this model did not begin their activation engaged. Move this model up to 3\" in a straight line. This model may move through, but not end on, enemy models during this move. After this movement this model may perform a [1] RATING melee attack on each enemy it passed through."
+			}
+		],
+		"imageUrl":"http://wrathofkings.com/ks/wp-content/uploads/2013/09/GOdancingmaster_front1.jpg"
+	},
+	{ "name":"The Wrath",
+		"faction":"Shael Han",
+		"rank":2,
+		"base":40,
+		"size":3,
+		"deploymentZone":"C",
+		"traits":["The Children"],
+		"types":["Infantry"],
+		"defenseChart":["OVERPOWER","STRIKE","STRIKE","STRIKE","DODGE","PARRY","PARRY","MAGIC","MAGIC","MAGIC"],
+		"mobility":6,
+		"willpower":6,
+		"resiliance":1,
+		"wounds":2,
+		"actions":[
+			{
+				"name":"Crescent Hook",
+				"type":"Melee",
+				"rating":2,
+				"range":"2",
+				"description":"After this attack is resolved, any enemies targeted by this attack may be forced up to 2\" toward this model."
+			},
+			{
+				"name":"Thunderfist Slam",
+				"type":"Magic",
+				"rating":1,
+				"range":"0",
+				"description":"This attack targets all enemies in range./nSuppression(1): Replace (1)MAGIC on the defender’s chart with STRIKE."
+			}
+		],
+		"specialAbilities":[
+			{
+				"name":"Enlightenment(1)",
+				"description":"When this model activates, it may choose up to (1) Offensive Insights within range and apply its effect. Models activating in a combined activation must choose the same Offensive Insight. When this model is attacked, after results are generated, it may choose up to (1) Defensive Insights within range and apply their effects."
+			},
+			{
+				"name":"Against All Odds",
+				"description":"While this model is in contact with 2 or more enemies, it gains Ward(1).\nWard(1):Replace the lowest STRIKE result on this model's defensive chart with MAGIC"
+			}
+		],
+		"imageUrl":"http://wrathofkings.com/ks/wp-content/uploads/2013/09/SHwrath2_front.jpg"
+	},
+	{ "name":"Gutter Friar",
+		"faction":"Hadross",
+		"rank":1,
+		"base":40,
+		"size":2,
+		"deploymentZone":"B",
+		"traits":["Sevridan"],
+		"types":["Leader"],
+		"defenseChart":["OVERPOWER","STRIKE","STRIKE","STRIKE","BLOCK","BLOCK","BLOCK","MAGIC","MAGIC","MAGIC"],
+		"mobility":6,
+		"willpower":6,
+		"resiliance":2,
+		"wounds":2,
+		"actions":[
+			{
+				"name":"Trident Strike",
+				"type":"Melee",
+				"rating":1,
+				"range":"2",
+				"description":"Resonating Echo: If this attack generates a hit, the target, and all enemies within 2\" of the target, gain Resonate."
+			},
+			{
+				"name":"Gelatinous Shift",
+				"type":"Will",
+				"rating":1,
+				"range":"0",
+				"description":"This attack targets all Resonated enemies in range. On a success, expend Resonate from that enemy and deal them 1 damage. After resolving attacks, place this model anywhere within 3\", and then place all targeted enemies in contact."
+			}
+		],
+		"specialAbilities":[
+			{
+				"name":"Paralytic Prescence"
+			},
+			{
+				"name":"Slow"
+			},
+			{
+				"name":"Iron Will",
+				"description":"When targeted by a Will Attack, this model has [+2]WILLPOWER."
+			}
+		],
+		"imageUrl":"http://wrathofkings.com/ks/wp-content/uploads/2013/09/HDfriar_front.jpg"
+	},
+	{ "name":"Longhorn",
+		"faction":"Nasier",
+		"rank":1,
+		"base":40,
+		"size":3,
+		"deploymentZone":"C",
+		"types":["Specialist"],
+		"defenseChart":["OVERPOWER","STRIKE","STRIKE","STRIKE","DODGE","BLOCK","BLOCK","PARRY","PARRY","PARRY"],
+		"mobility":7,
+		"willpower":5,
+		"resiliance":1,
+		"wounds":3,
+		"actions":[
+			{
+				"name":"Sword Strike",
+				"type":"Melee",
+				"rating":3,
+				"range":"0",
+				"description":"Sundering(1): Replace (1)ARMOR on the defender’s chart with 1 STRIKE.\nUnrelenting(1): Replace (1)PARRY on the defender’s chart with 1 STRIKE."
+			},
+			{
+				"name":"Clear a Path",
+				"type":"Special",
+				"rating":0,
+				"range":"0",
+				"description":"Enemies within 2\" of this model are forced 3\" away, in the order of this model’s choosing. This model may then move up to 4\" and perform 1 of its melee attacks."
+			}
+		],
+		"imageUrl":"http://wrathofkings.com/ks/wp-content/uploads/2013/09/NSlonghorn_front1.jpg"
+	}
+]
