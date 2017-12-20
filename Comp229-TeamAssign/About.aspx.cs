@@ -25,6 +25,7 @@ namespace Comp229_TeamAssign
             SqlCommand comm = new SqlCommand("select * from Books", conn);
             try
             {
+                // Opening database connection
                 conn.Open();
                 SqlDataReader reader = comm.ExecuteReader();
                 BooksGridView.DataSource = reader;
@@ -33,6 +34,7 @@ namespace Comp229_TeamAssign
             }
             finally
             {
+                //Closing database connection
                 conn.Close();
             }
         }

@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Comp229_TeamAssign.Contact" %>
-
+<%--Sushmita Nandalan(300923159), Chanpreet Mudhar(300932732)--%>
+<%--Date: 19th December, 2017 --%>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="Scripts/StyleSheet.css" rel="stylesheet" type="text/css">
     <address class="auto-style2">

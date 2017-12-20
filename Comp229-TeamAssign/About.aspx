@@ -1,11 +1,13 @@
 ﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Comp229_TeamAssign.About" %>
-
+<%--Sushmita Nandalan(300923159), Chanpreet Mudhar(300932732)--%>
+<%--Date: 19th December, 2017 --%>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="Scripts/StyleSheet.css" rel="stylesheet" type="text/css">
     <div class="jumbotron">
        <%-- Gif source: https://78.media.tumblr.com/82527938c6c71592639861f2d514548b/tumblr_ni8lp9BWpj1skswjlo1_250.gif --%>
         <img alt="Hand running through books." src="Images/Books.gif" style="width: 1050px; height: 275px; text-align: center;" /><br />
         <h3>List Of Books</h3>
+       <%--Displays a List of all the books--%>
         <asp:GridView ID="BooksGridView" runat="server" AutoGenerateColumns="False" 
         DataKeyNames="ISBN" AllowSorting="True" Height="340px" Width="908px">
         <Columns>

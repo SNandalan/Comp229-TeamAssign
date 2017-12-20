@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="Comp229_TeamAssign._Default" %>
-
+<%--Sushmita Nandalan(300923159), Chanpreet Mudhar(300932732)--%>
+<%--Date: 19th December, 2017 --%>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="Scripts/StyleSheet.css" rel="stylesheet" type="text/css">
     <div class="jumbotron">
@@ -13,6 +14,7 @@
             <em>“Sometimes, you read a book and it fills you with this weird evangelical zeal, and you become convinced that the shattered world will never be put back together unless and until all living humans read the book.” </em>
             -John Green, The Fault in Our Stars
         </blockquote>
+        <%--This Shows a bootstrap button that takes user to the List page --%>
         <p><a href="About.aspx" class="btn btn-primary btn-lg">List of Books &raquo;</a></p>
     </div>   
     </asp:Content>
