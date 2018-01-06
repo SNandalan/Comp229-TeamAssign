@@ -16,7 +16,10 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
+
 <body style="background-image:url(Images/Lines.jpg) ; width:100%;">
+    <%--Background Source:http://hdblackwallpaper.com/dark-pink-wallpaper-1-free-wallpaper.html
+https://coolors.co/a62639-db324d-56494e-a29c9b-511c29 --%>
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
