@@ -5,7 +5,7 @@
     <link href="Scripts/StyleSheet.css" rel="stylesheet" type="text/css">
     <div class="jumbotron">
        <%-- Gif source: https://78.media.tumblr.com/82527938c6c71592639861f2d514548b/tumblr_ni8lp9BWpj1skswjlo1_250.gif --%>
-        <img alt="Hand running through books." src="Images/Books.gif" style="width: 1050px; height: 275px; text-align: center;" /><br />
+        <img alt="Hand running through books." src="Images/Banner.gif" style="width: 1050px; height: 275px; text-align: center;" /><br />
         <h3>List Of Books</h3>
        <%--Displays a List of all the books--%>
         <asp:GridView ID="BooksGridView" runat="server" AutoGenerateColumns="False" 
