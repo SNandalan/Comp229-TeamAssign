@@ -4,7 +4,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="Scripts/StyleSheet.css" rel="stylesheet" type="text/css">
     <div class="jumbotron">
-         
+          <%-- Image source: https://architecture.desktopnexus.com/wallpaper/1154038/ --%>
             <img alt="Library " src="Images/library1.jpg" style="width: 1050px; height: 275px; text-align: center;" /><br />
         <h2>Books Library</h2>
         <p class="size">
@@ -16,7 +16,5 @@
         </blockquote>
         <%--This Shows a bootstrap button that takes user to the List page --%>
         <p><a href="About.aspx" class="btn btn-primary btn-lg">List of Books &raquo;</a></p>
-    
-    </div>
-    
+    </div>   
     </asp:Content>
