@@ -143,9 +143,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Images\Back.jpg" />
+    <Content Include="Images\Banner.gif" />
+    <Content Include="Images\Blue.jpg" />
     <Content Include="Images\Book.png" />
     <Content Include="Images\Books.gif" />
+    <Content Include="Images\Gif.gif" />
     <Content Include="Images\library1.jpg" />
+    <Content Include="Images\Lines.jpg" />
+    <Content Include="Images\Pages.jpg" />
+    <Content Include="Images\Read.jpg" />
+    <Content Include="Images\tumblr.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

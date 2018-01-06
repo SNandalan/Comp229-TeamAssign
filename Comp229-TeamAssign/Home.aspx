@@ -16,6 +16,7 @@
         </blockquote>
         <%--This Shows a bootstrap button that takes user to the List page --%>
         <p><a href="About.aspx" class="btn btn-primary btn-lg">List of Books &raquo;</a></p>
+    
     </div>
     
     </asp:Content>

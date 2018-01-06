@@ -11,6 +11,11 @@ namespace Comp229_TeamAssign
 {
     public partial class About : Page
     {
+        /// <summary>
+        /// This is my page load
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
