@@ -58,22 +58,22 @@ namespace Comp229_TeamAssign {
         protected global::System.Web.UI.WebControls.TextBox txtISBN;
         
         /// <summary>
-        /// genreList control.
+        /// txtGenre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList genreList;
+        protected global::System.Web.UI.WebControls.TextBox txtGenre;
         
         /// <summary>
-        /// checkList control.
+        /// Genre control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator checkList;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator Genre;
         
         /// <summary>
         /// txtRating control.
@@ -83,5 +83,23 @@ namespace Comp229_TeamAssign {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtRating;
+        
+        /// <summary>
+        /// btnUpdate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnUpdate;
+        
+        /// <summary>
+        /// lblStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStatus;
     }
 }

@@ -13,5 +13,27 @@ namespace Comp229_TeamAssign
         {
 
         }
+        protected void btnUpdate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string titleSave = txtBookTitle.Text;
+                string authorSave = txtAuthorName.Text;
+                string ISBNSave = txtISBN.Text;
+                string genreSave = txtGenre.Text;
+                string ratingSave = txtRating.Text;
+
+                Info infoSaveBTN = new Info(titleSave, authorSave, ISBNSave, genreSave, ratingSave);
+                ConnectionClass.AddInfo(infoSaveBTN);
+                lblStatus.Visible = true;
+                lblStatus.Text = "Uploaded Successfully!";
+            }
+            catch
+            {
+                lblStatus.Visible = true;
+                lblStatus.ForeColor = System.Drawing.Color.Red;
+                lblStatus.Text = "Upload Failed!";
+            }
+        }
     }
 }

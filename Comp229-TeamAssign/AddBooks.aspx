@@ -29,16 +29,10 @@
              <tr>
                  <td>Genre:</td>
                  <td>
-		<asp:DropDownList ID="genreList" runat="server">
-			    <asp:ListItem Text="Please Select One" Value="" />
-                <asp:ListItem Text="Romance" Value="one" />
-                <asp:ListItem Text="Horror" Value="two" />
-                <asp:ListItem Text="Comedy" Value="three" />
-                <asp:ListItem Text="Thriller" Value="four" />
-                <asp:ListItem Text="Other" Value="five" />
-            </asp:DropDownList>
-            <asp:RequiredFieldValidator runat="server" ID="checkList" ControlToValidate="genreList" ErrorMessage="Please select one"></asp:RequiredFieldValidator>
-                 &nbsp;</td>
+                 <asp:TextBox ID="txtGenre" runat="server"></asp:TextBox>
+                 &nbsp;
+                 <asp:RequiredFieldValidator runat="server" ID="Genre" ControlToValidate="txtGenre" ErrorMessage="Genre is required" Display="Dynamic"></asp:RequiredFieldValidator>
+                 </td>
              </tr>
              <tr>
                  <td>Rating:</td>
@@ -50,8 +44,11 @@
              </tr>
              </table>
      
-   <%--<asp:Button ID="btnCancel" Text="Cancel" runat="server" OnClick="btnCancel_Click"/>
-   <asp:Button ID="btnUpdate" Text="Update" runat="server" OnClick="btnUpdate_Click" />--%>
+   <%--<asp:Button ID="btnCancel" Text="Cancel" runat="server" OnClick="btnCancel_Click"/> &nbsp;&nbsp--%>
+   <asp:Button ID="btnUpdate" Text="Update" runat="server" OnClick="btnUpdate_Click" />
+            <br />
+            <asp:Label ID="lblStatus" runat="server" ForeColor="Green" Text="Label" Visible="False"></asp:Label>
+
       </div>
     </body>
 </asp:Content>
