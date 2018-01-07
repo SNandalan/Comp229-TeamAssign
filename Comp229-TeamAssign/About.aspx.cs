@@ -27,7 +27,7 @@ namespace Comp229_TeamAssign
         {
             string connectionString = ConfigurationManager.ConnectionStrings["Comp229-TeamAssign"].ConnectionString;
             SqlConnection conn = new SqlConnection(connectionString);
-            SqlCommand comm = new SqlCommand("select * from Books", conn);
+            SqlCommand comm = new SqlCommand("select * from MyBooks", conn);
             try
             {
                 // Opening database connection

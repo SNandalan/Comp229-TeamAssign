@@ -13,6 +13,30 @@ namespace Comp229_TeamAssign
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                BindBookData();
+            }
+        }
+        private void BindBookData()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["Comp229-TeamAssign"].ConnectionString;
+            SqlConnection conn = new SqlConnection(connectionString);
+            SqlCommand comm = new SqlCommand("select * from Books", conn);
+            try
+            {
+                // Opening database connection
+                conn.Open();
+                SqlDataReader reader = comm.ExecuteReader();
+                BooksGridView.DataSource = reader;
+                BooksGridView.DataBind();
+                reader.Close();
+            }
+            finally
+            {
+                //Closing database connection
+                conn.Close();
+            }
         }
     }
 }

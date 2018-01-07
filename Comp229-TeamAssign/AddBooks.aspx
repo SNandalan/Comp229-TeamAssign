@@ -44,8 +44,7 @@
              </tr>
              </table>
      
-   <%--<asp:Button ID="btnCancel" Text="Cancel" runat="server" OnClick="btnCancel_Click"/> &nbsp;&nbsp--%>
-   <asp:Button ID="btnUpdate" Text="Update" runat="server" OnClick="btnUpdate_Click" />
+   <asp:Button ID="btnUpdate" class="btn btn-primary btn-lg" Text="Update" runat="server" OnClick="btnUpdate_Click" />
             <br />
             <asp:Label ID="lblStatus" runat="server" ForeColor="Green" Text="Label" Visible="False"></asp:Label>
 

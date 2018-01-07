@@ -11,14 +11,12 @@
         <asp:GridView ID="BooksGridView" runat="server" AutoGenerateColumns="False" 
         DataKeyNames="ISBN" AllowSorting="True" Height="340px" Width="908px">
         <Columns>
-            <asp:HyperLinkField DataTextField="ISBN" HeaderText="ISBN" Visible="true" DataNavigateUrlFields="ISBN"
-                DataNavigateUrlFormatString="Home.aspx?ISBN={0}" />
-            <asp:BoundField DataField="BookTitle" HeaderText="Title" />
+            <asp:BoundField DataField="ISBN" HeaderText="ISBN" Visible="true" />
+            <asp:BoundField DataField="Title" HeaderText="Title" />
             <asp:BoundField DataField="Author" HeaderText="Author" />
             <asp:BoundField DataField="Genre" HeaderText="Genre" />
-            <asp:BoundField DataField="Format" HeaderText="Format" />
             <asp:BoundField DataField="Rating" HeaderText="Rating" />
         </Columns>
         </asp:GridView>
-        </div> 
+        <p><a href="AddBooks.aspx" class="btn btn-primary btn-lg">Add Books &raquo;</a></p>
 </asp:Content>
