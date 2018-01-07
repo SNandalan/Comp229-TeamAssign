@@ -7,19 +7,19 @@ namespace Comp229_TeamAssign
 {
     public class Info
     {
-        public int ClientID { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string PhoneNumber { get; set; }
-        public string Address { get; set; }
+        public string BookTitle { get; set; }
+        public string AuthorName { get; set; }
+        public int ISBN { get; set; }
+        public string Genre { get; set; }
+        public double Rating { get; set; }
 
-        public Info(int infoID, string name, string lastName, string phoneNumber, string address)
+        public Info(string bookTitle, string authorName, int isbn, string genre, double rating)
         {
-            ClientID = infoID;
-            FirstName = name;
-            LastName = lastName;
-            PhoneNumber = phoneNumber;
-            Address = address;
+            BookTitle = bookTitle;
+            AuthorName = authorName;
+            ISBN = isbn;
+            Genre = genre;
+            Rating = rating;
         }
     }
 }

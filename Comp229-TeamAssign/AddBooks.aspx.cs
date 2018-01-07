@@ -19,9 +19,9 @@ namespace Comp229_TeamAssign
             {
                 string titleSave = txtBookTitle.Text;
                 string authorSave = txtAuthorName.Text;
-                string ISBNSave = txtISBN.Text;
+                int ISBNSave = Convert.ToInt32(txtISBN.Text);
                 string genreSave = txtGenre.Text;
-                string ratingSave = txtRating.Text;
+                double ratingSave = Convert.ToDouble(txtRating.Text);
 
                 Info infoSaveBTN = new Info(titleSave, authorSave, ISBNSave, genreSave, ratingSave);
                 ConnectionClass.AddInfo(infoSaveBTN);
