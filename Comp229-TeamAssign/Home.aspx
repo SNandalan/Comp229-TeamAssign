@@ -16,6 +16,21 @@
             -John Green, The Fault in Our Stars
             </p>
         </blockquote>
+            Here is a list of best selling books. 
+            <%--Displays a List of all the books--%>
+        <asp:GridView ID="BooksGridView" runat="server" AutoGenerateColumns="False" 
+        DataKeyNames="ISBN" AllowSorting="True" Height="340px" Width="908px">
+        <Columns>
+            <asp:HyperLinkField DataTextField="ISBN" HeaderText="ISBN" Visible="true" DataNavigateUrlFields="ISBN"
+                DataNavigateUrlFormatString="Home.aspx?ISBN={0}" />
+            <asp:BoundField DataField="BookTitle" HeaderText="Title" />
+            <asp:BoundField DataField="Author" HeaderText="Author" />
+            <asp:BoundField DataField="Genre" HeaderText="Genre" />
+            <asp:BoundField DataField="Format" HeaderText="Format" />
+            <asp:BoundField DataField="Rating" HeaderText="Rating" />
+        </Columns>
+        </asp:GridView>
+            Please click on the button below to make your own list of books. 
         <%--This Shows a bootstrap button that takes user to the List page --%>
         <p><a href="About.aspx" class="btn btn-primary btn-lg">List of Books &raquo;</a></p>
     </div>   
