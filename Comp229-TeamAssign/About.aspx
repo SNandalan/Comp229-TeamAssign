@@ -19,8 +19,6 @@
             <asp:BoundField DataField="Format" HeaderText="Format" />
             <asp:BoundField DataField="Rating" HeaderText="Rating" />
         </Columns>
-    </asp:GridView>
-
-        `
-    </div> 
+        </asp:GridView>
+        </div> 
 </asp:Content>

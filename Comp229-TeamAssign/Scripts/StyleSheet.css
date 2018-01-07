@@ -35,15 +35,15 @@ img{
     background-color: white;
 }
 a:hover {
-    background-color: deeppink;
+    background-color: white;
     text-emphasis-color: indigo;
 }
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(Images/Blue.jpg);
+    background-image: url(Images/Lines.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
     color: #56494E;
-    text-shadow: black 0.4em 0.4em 0.4em;
+    text-shadow: grey 0.2em 0.2em 0.2em;
 }
